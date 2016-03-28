@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A489E4D1CA909C80001C075 /* DistrictPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A489E4C1CA909C80001C075 /* DistrictPickView.m */; };
+		8A7879AA1CA133FC008899E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7879A91CA133FC008899E3 /* main.m */; };
+		8A7879AD1CA133FC008899E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7879AC1CA133FC008899E3 /* AppDelegate.m */; };
+		8A7879B51CA133FC008899E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A7879B41CA133FC008899E3 /* Assets.xcassets */; };
+		8A7879B81CA133FC008899E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7879B61CA133FC008899E3 /* LaunchScreen.storyboard */; };
+		8A7879C31CA133FC008899E3 /* CityPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7879C21CA133FC008899E3 /* CityPickerTests.m */; };
+		8A7879CE1CA133FC008899E3 /* CityPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7879CD1CA133FC008899E3 /* CityPickerUITests.m */; };
+		8A7879DC1CA1340E008899E3 /* CityList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A7879DB1CA1340E008899E3 /* CityList.plist */; };
+		8A7879E31CA137A6008899E3 /* DistrictPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7879E21CA137A6008899E3 /* DistrictPickerViewController.m */; };
+		8A7879E51CA137B7008899E3 /* DistrictList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A7879E41CA137B7008899E3 /* DistrictList.plist */; };
+		8A7879E91CA1398D008899E3 /* District.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7879E61CA1398D008899E3 /* District.png */; };
+		8A7879EA1CA1398D008899E3 /* District@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7879E71CA1398D008899E3 /* District@2x.png */; };
+		8A7879EB1CA1398D008899E3 /* District@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7879E81CA1398D008899E3 /* District@3x.png */; };
+		8A7879EF1CA13A1D008899E3 /* City.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7879EC1CA13A1D008899E3 /* City.png */; };
+		8A7879F01CA13A1D008899E3 /* City@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7879ED1CA13A1D008899E3 /* City@2x.png */; };
+		8A7879F11CA13A1D008899E3 /* City@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7879EE1CA13A1D008899E3 /* City@3x.png */; };
+		8A7879F51CA13B45008899E3 /* ShowCityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7879F31CA13B45008899E3 /* ShowCityListViewController.m */; };
+		8A7879F61CA13B45008899E3 /* ShowCityListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A7879F41CA13B45008899E3 /* ShowCityListViewController.xib */; };
+		8A7879F91CA14145008899E3 /* CityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7879F81CA14145008899E3 /* CityListViewController.m */; };
+		8A7879FB1CA14164008899E3 /* DistrictPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A7879FA1CA14164008899E3 /* DistrictPickerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A7879BF1CA133FC008899E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A78799D1CA133FC008899E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A7879A41CA133FC008899E3;
+			remoteInfo = CityPicker;
+		};
+		8A7879CA1CA133FC008899E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A78799D1CA133FC008899E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A7879A41CA133FC008899E3;
+			remoteInfo = CityPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A489E4B1CA909C80001C075 /* DistrictPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistrictPickView.h; sourceTree = "<group>"; };
+		8A489E4C1CA909C80001C075 /* DistrictPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistrictPickView.m; sourceTree = "<group>"; };
+		8A7879A51CA133FC008899E3 /* CityPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7879A91CA133FC008899E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A7879AB1CA133FC008899E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A7879AC1CA133FC008899E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A7879B41CA133FC008899E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A7879B71CA133FC008899E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A7879B91CA133FC008899E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A7879BE1CA133FC008899E3 /* CityPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7879C21CA133FC008899E3 /* CityPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityPickerTests.m; sourceTree = "<group>"; };
+		8A7879C41CA133FC008899E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A7879C91CA133FC008899E3 /* CityPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7879CD1CA133FC008899E3 /* CityPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityPickerUITests.m; sourceTree = "<group>"; };
+		8A7879CF1CA133FC008899E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A7879DB1CA1340E008899E3 /* CityList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityList.plist; sourceTree = "<group>"; };
+		8A7879E11CA137A6008899E3 /* DistrictPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistrictPickerViewController.h; sourceTree = "<group>"; };
+		8A7879E21CA137A6008899E3 /* DistrictPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistrictPickerViewController.m; sourceTree = "<group>"; };
+		8A7879E41CA137B7008899E3 /* DistrictList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DistrictList.plist; sourceTree = "<group>"; };
+		8A7879E61CA1398D008899E3 /* District.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = District.png; sourceTree = "<group>"; };
+		8A7879E71CA1398D008899E3 /* District@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "District@2x.png"; sourceTree = "<group>"; };
+		8A7879E81CA1398D008899E3 /* District@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "District@3x.png"; sourceTree = "<group>"; };
+		8A7879EC1CA13A1D008899E3 /* City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = City.png; sourceTree = "<group>"; };
+		8A7879ED1CA13A1D008899E3 /* City@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "City@2x.png"; sourceTree = "<group>"; };
+		8A7879EE1CA13A1D008899E3 /* City@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "City@3x.png"; sourceTree = "<group>"; };
+		8A7879F21CA13B45008899E3 /* ShowCityListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowCityListViewController.h; sourceTree = "<group>"; };
+		8A7879F31CA13B45008899E3 /* ShowCityListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowCityListViewController.m; sourceTree = "<group>"; };
+		8A7879F41CA13B45008899E3 /* ShowCityListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowCityListViewController.xib; sourceTree = "<group>"; };
+		8A7879F71CA14145008899E3 /* CityListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityListViewController.h; sourceTree = "<group>"; };
+		8A7879F81CA14145008899E3 /* CityListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityListViewController.m; sourceTree = "<group>"; };
+		8A7879FA1CA14164008899E3 /* DistrictPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DistrictPickerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A7879A21CA133FC008899E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A7879BB1CA133FC008899E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A7879C61CA133FC008899E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A78799C1CA133FC008899E3 = {
+			isa = PBXGroup;
+			children = (
+				8A7879A71CA133FC008899E3 /* CityPicker */,
+				8A7879C11CA133FC008899E3 /* CityPickerTests */,
+				8A7879CC1CA133FC008899E3 /* CityPickerUITests */,
+				8A7879A61CA133FC008899E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A7879A61CA133FC008899E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A7879A51CA133FC008899E3 /* CityPicker.app */,
+				8A7879BE1CA133FC008899E3 /* CityPickerTests.xctest */,
+				8A7879C91CA133FC008899E3 /* CityPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A7879A71CA133FC008899E3 /* CityPicker */ = {
+			isa = PBXGroup;
+			children = (
+				8A7879DD1CA13417008899E3 /* Resources */,
+				8A7879AB1CA133FC008899E3 /* AppDelegate.h */,
+				8A7879AC1CA133FC008899E3 /* AppDelegate.m */,
+				8A7879E11CA137A6008899E3 /* DistrictPickerViewController.h */,
+				8A7879E21CA137A6008899E3 /* DistrictPickerViewController.m */,
+				8A7879FA1CA14164008899E3 /* DistrictPickerViewController.xib */,
+				8A7879F21CA13B45008899E3 /* ShowCityListViewController.h */,
+				8A7879F31CA13B45008899E3 /* ShowCityListViewController.m */,
+				8A7879F41CA13B45008899E3 /* ShowCityListViewController.xib */,
+				8A7879F71CA14145008899E3 /* CityListViewController.h */,
+				8A7879F81CA14145008899E3 /* CityListViewController.m */,
+				8A489E4B1CA909C80001C075 /* DistrictPickView.h */,
+				8A489E4C1CA909C80001C075 /* DistrictPickView.m */,
+				8A7879B41CA133FC008899E3 /* Assets.xcassets */,
+				8A7879B61CA133FC008899E3 /* LaunchScreen.storyboard */,
+				8A7879B91CA133FC008899E3 /* Info.plist */,
+				8A7879A81CA133FC008899E3 /* Supporting Files */,
+			);
+			path = CityPicker;
+			sourceTree = "<group>";
+		};
+		8A7879A81CA133FC008899E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A7879A91CA133FC008899E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A7879C11CA133FC008899E3 /* CityPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A7879C21CA133FC008899E3 /* CityPickerTests.m */,
+				8A7879C41CA133FC008899E3 /* Info.plist */,
+			);
+			path = CityPickerTests;
+			sourceTree = "<group>";
+		};
+		8A7879CC1CA133FC008899E3 /* CityPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A7879CD1CA133FC008899E3 /* CityPickerUITests.m */,
+				8A7879CF1CA133FC008899E3 /* Info.plist */,
+			);
+			path = CityPickerUITests;
+			sourceTree = "<group>";
+		};
+		8A7879DD1CA13417008899E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A7879EC1CA13A1D008899E3 /* City.png */,
+				8A7879ED1CA13A1D008899E3 /* City@2x.png */,
+				8A7879EE1CA13A1D008899E3 /* City@3x.png */,
+				8A7879E61CA1398D008899E3 /* District.png */,
+				8A7879E71CA1398D008899E3 /* District@2x.png */,
+				8A7879E81CA1398D008899E3 /* District@3x.png */,
+				8A7879E41CA137B7008899E3 /* DistrictList.plist */,
+				8A7879DB1CA1340E008899E3 /* CityList.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A7879A41CA133FC008899E3 /* CityPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A7879D21CA133FC008899E3 /* Build configuration list for PBXNativeTarget "CityPicker" */;
+			buildPhases = (
+				8A7879A11CA133FC008899E3 /* Sources */,
+				8A7879A21CA133FC008899E3 /* Frameworks */,
+				8A7879A31CA133FC008899E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CityPicker;
+			productName = CityPicker;
+			productReference = 8A7879A51CA133FC008899E3 /* CityPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A7879BD1CA133FC008899E3 /* CityPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A7879D51CA133FC008899E3 /* Build configuration list for PBXNativeTarget "CityPickerTests" */;
+			buildPhases = (
+				8A7879BA1CA133FC008899E3 /* Sources */,
+				8A7879BB1CA133FC008899E3 /* Frameworks */,
+				8A7879BC1CA133FC008899E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A7879C01CA133FC008899E3 /* PBXTargetDependency */,
+			);
+			name = CityPickerTests;
+			productName = CityPickerTests;
+			productReference = 8A7879BE1CA133FC008899E3 /* CityPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A7879C81CA133FC008899E3 /* CityPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A7879D81CA133FC008899E3 /* Build configuration list for PBXNativeTarget "CityPickerUITests" */;
+			buildPhases = (
+				8A7879C51CA133FC008899E3 /* Sources */,
+				8A7879C61CA133FC008899E3 /* Frameworks */,
+				8A7879C71CA133FC008899E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A7879CB1CA133FC008899E3 /* PBXTargetDependency */,
+			);
+			name = CityPickerUITests;
+			productName = CityPickerUITests;
+			productReference = 8A7879C91CA133FC008899E3 /* CityPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A78799D1CA133FC008899E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = AnarL;
+				TargetAttributes = {
+					8A7879A41CA133FC008899E3 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					8A7879BD1CA133FC008899E3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8A7879A41CA133FC008899E3;
+					};
+					8A7879C81CA133FC008899E3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8A7879A41CA133FC008899E3;
+					};
+				};
+			};
+			buildConfigurationList = 8A7879A01CA133FC008899E3 /* Build configuration list for PBXProject "CityPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A78799C1CA133FC008899E3;
+			productRefGroup = 8A7879A61CA133FC008899E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A7879A41CA133FC008899E3 /* CityPicker */,
+				8A7879BD1CA133FC008899E3 /* CityPickerTests */,
+				8A7879C81CA133FC008899E3 /* CityPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A7879A31CA133FC008899E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7879FB1CA14164008899E3 /* DistrictPickerViewController.xib in Resources */,
+				8A7879B81CA133FC008899E3 /* LaunchScreen.storyboard in Resources */,
+				8A7879E51CA137B7008899E3 /* DistrictList.plist in Resources */,
+				8A7879B51CA133FC008899E3 /* Assets.xcassets in Resources */,
+				8A7879DC1CA1340E008899E3 /* CityList.plist in Resources */,
+				8A7879F11CA13A1D008899E3 /* City@3x.png in Resources */,
+				8A7879EF1CA13A1D008899E3 /* City.png in Resources */,
+				8A7879EA1CA1398D008899E3 /* District@2x.png in Resources */,
+				8A7879EB1CA1398D008899E3 /* District@3x.png in Resources */,
+				8A7879F61CA13B45008899E3 /* ShowCityListViewController.xib in Resources */,
+				8A7879E91CA1398D008899E3 /* District.png in Resources */,
+				8A7879F01CA13A1D008899E3 /* City@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A7879BC1CA133FC008899E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A7879C71CA133FC008899E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A7879A11CA133FC008899E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7879E31CA137A6008899E3 /* DistrictPickerViewController.m in Sources */,
+				8A489E4D1CA909C80001C075 /* DistrictPickView.m in Sources */,
+				8A7879F51CA13B45008899E3 /* ShowCityListViewController.m in Sources */,
+				8A7879F91CA14145008899E3 /* CityListViewController.m in Sources */,
+				8A7879AD1CA133FC008899E3 /* AppDelegate.m in Sources */,
+				8A7879AA1CA133FC008899E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A7879BA1CA133FC008899E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7879C31CA133FC008899E3 /* CityPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A7879C51CA133FC008899E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7879CE1CA133FC008899E3 /* CityPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A7879C01CA133FC008899E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A7879A41CA133FC008899E3 /* CityPicker */;
+			targetProxy = 8A7879BF1CA133FC008899E3 /* PBXContainerItemProxy */;
+		};
+		8A7879CB1CA133FC008899E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A7879A41CA133FC008899E3 /* CityPicker */;
+			targetProxy = 8A7879CA1CA133FC008899E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A7879B61CA133FC008899E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A7879B71CA133FC008899E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A7879D01CA133FC008899E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A7879D11CA133FC008899E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A7879D31CA133FC008899E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CityPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Digiarty.CityPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A7879D41CA133FC008899E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CityPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Digiarty.CityPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A7879D61CA133FC008899E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CityPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Digiarty.CityPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityPicker.app/CityPicker";
+			};
+			name = Debug;
+		};
+		8A7879D71CA133FC008899E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CityPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Digiarty.CityPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityPicker.app/CityPicker";
+			};
+			name = Release;
+		};
+		8A7879D91CA133FC008899E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CityPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Digiarty.CityPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CityPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8A7879DA1CA133FC008899E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CityPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Digiarty.CityPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CityPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A7879A01CA133FC008899E3 /* Build configuration list for PBXProject "CityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7879D01CA133FC008899E3 /* Debug */,
+				8A7879D11CA133FC008899E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A7879D21CA133FC008899E3 /* Build configuration list for PBXNativeTarget "CityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7879D31CA133FC008899E3 /* Debug */,
+				8A7879D41CA133FC008899E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A7879D51CA133FC008899E3 /* Build configuration list for PBXNativeTarget "CityPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7879D61CA133FC008899E3 /* Debug */,
+				8A7879D71CA133FC008899E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A7879D81CA133FC008899E3 /* Build configuration list for PBXNativeTarget "CityPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7879D91CA133FC008899E3 /* Debug */,
+				8A7879DA1CA133FC008899E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A78799D1CA133FC008899E3 /* Project object */;
+}
