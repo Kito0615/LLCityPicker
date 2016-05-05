@@ -41,6 +41,7 @@
     tabbar.viewControllers = array;
     _window.rootViewController = tabbar;
     
+    
     [_window makeKeyAndVisible];
     
     return YES;

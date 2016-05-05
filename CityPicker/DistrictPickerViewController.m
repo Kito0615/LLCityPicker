@@ -37,11 +37,13 @@
         _pickerView.frame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height - 49);
     }];
     
+    __block DistrictPickerViewController * weakSelf = self;
+    
     _pickerView.selection = ^(NSString * selectedDistrict){
-        self.pickedDistrict.text = selectedDistrict;
+        weakSelf.pickedDistrict.text = selectedDistrict;
         
         [UIView animateWithDuration:0.5 animations:^{
-            _pickerView.frame = CGRectMake(0, self.view.bounds.size.height, self.view.bounds.size.width, self.view.bounds.size.height);
+            _pickerView.frame = CGRectMake(0, weakSelf.view.bounds.size.height, weakSelf.view.bounds.size.width, weakSelf.view.bounds.size.height);
             _pickerView = nil;
         }];
     };

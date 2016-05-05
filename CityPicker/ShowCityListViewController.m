@@ -45,10 +45,11 @@
     _cityListVC.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
     _cityListVC.modalPresentationStyle = UIModalPresentationFormSheet;
     
+    __block ShowCityListViewController * weakSelf = self;
     UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:_cityListVC];
     _cityListVC.title = @"城市列表";
     _cityListVC.block = ^(NSString * str){
-        self.selectedCity.text = str;
+        weakSelf.selectedCity.text = str;
     };
     
     [self presentViewController:nav animated:YES completion:^{
