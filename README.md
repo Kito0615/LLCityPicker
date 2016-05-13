@@ -2,7 +2,7 @@
 
 This repository is about two kind selecion in iOS.
 
-这个工程展示了两个iOS上常用的选择城市的方式。
+这个工程展示了两种iOS上常用的选择城市的方式。
 
 效果如图:
 
